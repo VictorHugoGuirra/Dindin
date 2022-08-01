@@ -1,0 +1,132 @@
+/*section*/
+.section{
+    background: #E5E5E5;
+    padding: 100px 0px;
+}
+
+.titulo-prin{   
+    position: relative;
+    width: 740px;
+    height:20px;
+    left: 284px;
+    top: -50px;    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;    
+    color: #FF4081;
+    text-align: center;
+}
+
+.imagem{    
+  position: relative;
+  width: 840px;
+  height: 465px;
+  left: 204px;
+  top: -11px;
+}
+
+.texto1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+    padding: 15px;
+}
+
+.texto2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 15px;
+    color:#419488;
+    text-align: center;
+}
+
+.texto3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    color: #000000;
+}
+
+/*section2*/
+
+.section2 {
+    background-color: #f6f6f6;
+}
+
+.titulo-novo{
+    position: absolute;
+    width: 528px;
+    height: 57px;
+    left: 440px;
+    top: 1380px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    align-items: center;
+    color: #FF4081;
+}
+
+.box2 {
+    padding: 100px 0px;
+}
+
+.box-texto-imagem {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-imagem2 {
+    margin: 0px 50px;
+}
+
+.box-imagem2 img {
+    max-height: 250px;
+}
+
+.box-titulo2 {
+    text-align: center;
+}
+
+.titulo-h4 {
+    margin-top: 10px;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text2 {
+    margin: 20px 0px;
+    color:#555555;
+    font-size: 14px;
+}
+
+.vamos-la {
+    width: 160px;
+    background: #FF4081;
+    border-radius: 50px;
+    padding: 10px;
+    margin: auto;
+}
+
+.vamos-la a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}

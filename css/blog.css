@@ -1,0 +1,87 @@
+.section{
+    background-color: rgb(255, 255, 255);
+    padding: 20px; 
+}
+
+.titulo-blog{
+    position: absolute;
+    width: 400px;
+    height: 108px;
+    left: 192px;
+    top: 135px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: left;
+    color: #009688;
+}
+
+.texto-blog{
+    position: absolute;
+    width: 446px;
+    height: 110px;
+    left: 192px;
+    top: 285px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    align-items: left;
+    color: #000000;
+    
+}
+
+.ilus-blog{
+    position: relative;
+    width: 405px;
+    height: 405px;
+    left: 715px;
+    top: 5px;
+}
+
+.section2{
+    padding: 20px;
+    background-color: #E5E5E5;
+}
+
+.grind{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: auto;
+}
+
+.grind .imagem1{
+    width: 518px;
+    height: 259px;
+    left: 171px;
+    top: 768px;
+}
+
+.grind .titulo1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;    
+    color: #FF4081;    
+}
+
+.grind .texto1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    width: 517px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}

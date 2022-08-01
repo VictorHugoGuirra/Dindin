@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+main{
+    font-family: 'Ubuntu', sans-serif;
+    background: #E5E5E5;
+}
+
+.contato{
+    position: absolute;
+    left: 18%;
+    right: 68.95%;
+    top: 20%;
+    bottom: 89.02%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FF4081;
+}
+
+.nome{
+    
+    position: absolute;
+    left: 19%;
+    right: 0%;
+    top: 42%;
+    bottom: 70.88%;   
+}
+
+.nome input{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #58555D;
+    width: 324px;
+}
+
+.email{    
+  position: absolute;
+  left: 19%;
+  right: 0%;
+  top: 47%;
+  bottom: 59.67%;
+}
+
+.email input{
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #686868;
+  border-radius: 4px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #58555D;
+  width: 324px;
+}
+
+.mensagem{
+    position: absolute;
+    left: 19%;
+    right: 0%;
+    top: 52%;
+    bottom: 10.26%;
+}
+
+.mensagem input{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display:flex;
+    align-items: center;
+    text-transform: lowercase;
+    text-align: justify;
+    width: 324px;
+    height: 155px;         
+}
+
+.mensagem input::placeholder{
+    position: absolute;
+    left: 1%;
+    right: 68.75%;
+    top: 1%;
+    bottom: 45.58%;
+}
+
+.botao{
+    position: absolute;
+    left: 19%;
+    right: 77.62%;
+    top: 78%;
+    bottom: -0.95%;
+}
+
+.botao button{
+    background: #FF4081;
+    border-radius: 50px;
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding: 2px;
+    width: 113px;
+}
+
+.imagem{
+position: relative;
+width: 444px;
+height: 444px;
+left: 670px;
+top: 1px;
+}
